@@ -1,0 +1,22 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background: #f2f2f2;
+}
+#board {
+  display: grid;
+  grid-template-columns: repeat(10, 40px);
+  gap: 2px;
+  margin: 20px auto;
+  width: fit-content;
+}
+#board div {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+#board .player {
+  background: orange;
+  font-weight: bold;
+}
